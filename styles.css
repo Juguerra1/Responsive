@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    /*margin: 0 10px;*/
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden; 
+}
+
+li{
+    float: left;
+    margin: 1;
+}
+  
+li a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;  
+}
+
+.carrito{
+    height: 32px;
+    width: 32px;
+    margin: 2rem 3rem;   
+}
+
+.hamburger{
+    display: none;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 100px;
+}
+
+.background{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6y2zcreBeqTMS1PeyyvD4_CrtMA3iAIc8xg&usqp=CAU); background-repeat: no-repeat;background-size: cover;
+    position: absolute;
+    height: 50%;
+    width: 350px;
+    margin-left: 650px;  
+    border-radius: 8px;
+    border: double;  
+    border-color: red;
+}
+
+.cualquiera{
+    padding: 90px;
+    
+}
+.texto{
+    z-index: 1;    
+}
+
+.texto1{
+    display: none;
+}
+
+
+.discover{
+    font-size: 50px;
+    position: relative;
+    
+    text-decoration: none;
+    padding: 80px;
+    margin: 0%;
+    color: black;
+}
+
+.discover-one{
+    font-size: 50px;
+    position: relative;
+    text-decoration: none;
+    padding: 80px;
+    margin: 0%;
+    color: black;
+    display: none;
+}
+a{
+    text-decoration: none;
+   padding: 90px;
+}
+
+.arrow{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 60px solid black;
+        
+}
+.span{
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    header ul {
+        display: none;
+    }
+
+    header{
+        padding: 0 20px;
+    }
+
+    .carrito{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    .logo {
+        order: -1;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .texto1{
+       font-size: 40px;
+       display: block;
+       color: white;
+       z-index: 1; 
+       width: 500px; 
+       letter-spacing: 9px;
+       margin-top: 16px;
+    }
+
+    .texto{
+        display: none;
+         
+    }
+
+    .span1{
+        font-size: 40px;
+        color: black;
+
+    }
+
+    .background{
+        margin-left: -40px;
+        width: 250px;
+        height: 350px;   
+    } 
+
+    .discover{
+        display: none;   
+    }
+
+    .discover-one{
+        position: absolute  ;
+        bottom: 0;
+        display: block;
+        font-size: 30px; 
+    }
+
+      
+}
+
+
+
+
+
+

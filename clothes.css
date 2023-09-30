@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+body{
+    margin: 0 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden; 
+  }
+
+li{
+    float: left;
+    margin: 1;
+    
+  }
+  
+li a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+  }
+
+.logo{
+    justify-content: center;
+    display: flex;
+   
+}
+
+.carrito{
+    height: 32px;
+    width: 32px;
+    margin: 2rem 3rem;   
+  
+}
+.hamburger{
+    display: none;
+}
+
+.shoes{
+  display: flex;
+  justify-content: center;
+}
+
+.section-clothes {
+  display: flex;
+  flex-wrap: wrap;
+  height: 120vh;
+  background: url(https://adesivistore.com/18501-large_default/logo-nike-vernice-adesivo-prespaziato.jpg) center center/cover;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 300px;
+  width: 250px;
+  background-color: rgb(215, 210, 210);
+  border-radius: 7px;
+  margin: 4.5rem 1rem;
+  border: double;
+  border-color: salmon;
+}
+
+.container-info{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.description{
+
+
+}
+
+
+@media screen and (max-width: 768px){
+  header ul {
+  display: none;
+  }
+
+  header{
+    padding: 5px 20px;
+}
+.carrito{
+  display: none;
+}
+
+.hamburger{
+  display: flex;
+}
+
+.logo {
+  order: -1;
+}
+
+.card-container{
+  width: 350px;
+}
+
+h3{
+  font-size: 27px;
+}
+
+span{
+  font-size: 27px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
